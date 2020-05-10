@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+    <div class="jumbotron jumbotron-fluid">
+        <h1>Visit <%= ground.name %> </h1>
+    </div>
+
+    <div class="campgroundItem">
+            <h1> <%= ground.name %> </h1>
+            <img src= "<%= ground.image %>" id="campground-img">
+            <h5> <%= ground.location %> </h5>
+        </div>
+
+<% include partials/footer %>

@@ -1,0 +1,63 @@
+.content-of-body{
+    font-family: "Montserrat", san-serif;
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+
+.jumbotron{
+    text-align: center;
+    color: white;
+    background: #25EBEB;
+}
+
+.btn-blueback{
+    background-color: transparent;
+    border: 2px #fff solid;
+    margin: 2em auto;
+}
+
+.btn-blueback:hover, .btn-blueback:focus, .btn-blueback:visited:active {
+    color: #25EBEB !important;
+    background-color: #fff !important;
+    border: 2px #fff solid !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.campgroundsList-title{
+    margin: 2em auto;
+}
+
+.land-jumbo-item{
+    margin: 2em auto;
+}
+
+#campground-list-img{
+    height: 200px ;
+    width: 200px ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    text-align: center;
+    margin: 2em auto;
+}
+
+figcaption{
+    margin: 1em;
+}
+
+.form-title{
+    text-align: center;
+}
+
+#campground-img{
+    width: 100px;
+    height: 100px;
+}
